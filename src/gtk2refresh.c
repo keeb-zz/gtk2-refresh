@@ -24,7 +24,7 @@ static PyMethodDef refresh_methods[] = {
     {NULL, NULL, 0, NULL}
 };
 
-PyMODINIT_FUNC initrefresh() {
-    (void) Py_InitModule("refresh", refresh_methods);
+PyMODINIT_FUNC initgtk2refresh() {
+    (void) Py_InitModule("gtk2refresh", refresh_methods);
 }
 

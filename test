@@ -1,0 +1,3 @@
+cd bin
+python -c "import gtk2refresh; print 'success'; exit"
+cd ..
